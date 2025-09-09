@@ -9,18 +9,36 @@ This project is a Python-based web application for managing comments, featuring 
 
 ## Project Structure
 ```
-app/
-  __init__.py
-  app.py
-  config.py
-  models.py
-  routes/
-    __init__.py
-    comment_routes.py
-  services/
-    comment_service.py
-  instance/
-    app.db
+better_assgn/
+├── app/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── config.py
+│   ├── models.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── comment_routes.py
+│   │   └── __pycache__/
+│   │       ├── __init__.cpython-310.pyc
+│   │       └── comment_routes.cpython-310.pyc
+│   ├── services/
+│   │   ├── comment_service.py
+│   │   └── __pycache__/
+│   │       └── comment_service.cpython-310.pyc
+│   ├── instance/
+│   │   └── app.db
+│   └── __pycache__/
+│       ├── app.cpython-310.pyc
+│       ├── config.cpython-310.pyc
+│       ├── models.cpython-310.pyc
+│       └── __init__.cpython-310.pyc
+├── tests/
+│   └── test_comments.py
+├── DELETE.jpeg
+├── GET.jpeg
+├── POST.jpeg
+├── PUT.jpeg
+└── README.md
 ```
 
 ## API Operations
