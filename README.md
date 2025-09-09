@@ -53,6 +53,14 @@ curl -X POST http://localhost:5000/api/comments -H "Content-Type: application/js
 ![GET](GET.jpeg)
 
 ### PUT (Update)
+
+```
+curl -X PUT http://localhost:5000/api/comments/1 -H "Content-Type: application/json" -d "{\"content\":\"Paranji Punith Kumar completed backend API integration for user authentication and login flow\"}"
+```
+```
+curl -X PUT http://localhost:5000/api/comments/2 -H "Content-Type: application/json" -d "{\"content\":\"Code reviewed and optimized for performance by Paranji Punith Kumar, 10 months internship experience applied\"}"
+```
+
 ![PUT](PUT.jpeg)
 
 ### DELETE (Delete)
