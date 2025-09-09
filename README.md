@@ -101,7 +101,3 @@ Run tests using:
 ```bash
 pytest tests/
 ```
-
----
-
-Feel free to explore the code and contribute!
