@@ -50,6 +50,22 @@ curl -X POST http://localhost:5000/api/comments -H "Content-Type: application/js
 ![POST](POST.jpeg)
 
 ### GET (Read)
+```
+curl http://localhost:5000/api/comments/task/1
+```
+```
+curl http://localhost:5000/api/comments/task/2
+```
+```
+curl http://localhost:5000/api/comments/task/3
+```
+```
+curl http://localhost:5000/api/comments/task/4
+```
+```
+curl http://localhost:5000/api/comments/task/5
+```
+
 ![GET](GET.jpeg)
 
 ### PUT (Update)
@@ -64,6 +80,13 @@ curl -X PUT http://localhost:5000/api/comments/2 -H "Content-Type: application/j
 ![PUT](PUT.jpeg)
 
 ### DELETE (Delete)
+```
+curl -X DELETE http://localhost:5000/api/comments/3
+```
+```
+curl -X DELETE http://localhost:5000/api/comments/4
+```
+
 ![DELETE](DELETE.jpeg)
 
 ## Running the Application
