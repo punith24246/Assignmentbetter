@@ -16,10 +16,10 @@ better_assgn/
 │   ├── config.py
 │   ├── models.py
 │   ├── routes/
-│       ├── __init__.py
-│       ├── comment_routes.py
+│   |   ├── __init__.py
+│   |   ├── comment_routes.py
 │   ├── services/
-│       ├── comment_service.py
+│   |   ├── comment_service.py
 │   ├── instance/
 │       └── app.db
 ├── tests/
