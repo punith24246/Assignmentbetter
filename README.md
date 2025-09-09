@@ -31,9 +31,11 @@ Below are the main HTTP methods supported by the API:
 
 ``` 
 curl -X POST http://localhost:5000/api/comments -H "Content-Type: application/json" -d "{\"task_id\":1,\"content\":\"Paranji Punith Kumar completed the backend API integration for user authentication\"}"
-``` ```
+```
+```
 curl -X POST http://localhost:5000/api/comments -H "Content-Type: application/json" -d "{\"task_id\":1,\"content\":\"Code reviewed by Paranji Punith Kumar. 10 months of internship experience contributed to efficient implementation\"}"
-``` ```
+```
+```
 curl -X POST http://localhost:5000/api/comments -H "Content-Type: application/json" -d "{\"task_id\":2,\"content\":\"Front-end React component created for task dashboard by Paranji Punith Kumar from IIIT Kottayam\"}"
 ```
 
