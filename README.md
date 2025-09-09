@@ -16,22 +16,12 @@ better_assgn/
 │   ├── config.py
 │   ├── models.py
 │   ├── routes/
-│   │   ├── __init__.py
-│   │   ├── comment_routes.py
-│   │   └── __pycache__/
-│   │       ├── __init__.cpython-310.pyc
-│   │       └── comment_routes.cpython-310.pyc
+│       ├── __init__.py
+│       ├── comment_routes.py
 │   ├── services/
-│   │   ├── comment_service.py
-│   │   └── __pycache__/
-│   │       └── comment_service.cpython-310.pyc
+│       ├── comment_service.py
 │   ├── instance/
-│   │   └── app.db
-│   └── __pycache__/
-│       ├── app.cpython-310.pyc
-│       ├── config.cpython-310.pyc
-│       ├── models.cpython-310.pyc
-│       └── __init__.cpython-310.pyc
+│       └── app.db
 ├── tests/
 │   └── test_comments.py
 ├── DELETE.jpeg
